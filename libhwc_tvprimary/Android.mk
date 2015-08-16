@@ -20,7 +20,7 @@ include $(CLEAR_VARS)
 PLATFORM_DIR := $(TARGET_BOARD_PLATFORM)-insignal
 
 LOCAL_PRELINK_MODULE := false
-LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/hw
+LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SHARED_LIBRARIES := liblog libcutils libEGL libGLESv1_CM libhardware \
 	libhardware_legacy libion_exynos libutils libsync libexynosgscaler \
 	libexynosv4l2 libMcClient libexynosutils
